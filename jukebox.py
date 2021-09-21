@@ -1,6 +1,10 @@
-# 1. После каждого падения монеты в машину должна воспроизводиться случайная песня из списка (просто распечатайте название песни).
-# 2. Каждую песню следует воспроизводить только один раз за итерацию.
-# 3. После того, как все песни из списка были воспроизведены, следующая итерация начинается заново с полным исходным списком песен.
+#After each time a coin is dropped into machine, a random song from the list should be played (just  print just print out the song title)
+
+#Every song should be played only once per iteration
+
+#After all songs from the list have been played the next iteration starts over with full original list of the songs
+
+#The list of songs
 
 import random
 
