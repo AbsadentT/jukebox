@@ -23,7 +23,7 @@ while active:
     if active == True:
         random.shuffle(songs_list)
         for song in songs_list:
-            print("Опустите монетку для проигрывания трека:")
+            print("Drop a coin to play the track:")
             mes = input()
             if mes == 'coin':
                 print(song)
